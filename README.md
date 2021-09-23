@@ -1,8 +1,20 @@
 # devops-netology
-# Домашнее задание к занятию «2.1. Системы контроля версий.»
+# Домашнее задание к занятию "2.2. Основы Git"
+<details> 
+Добавлена строка в ветке fix
+
+## Упрощаем себе жизнь
+```
+Коммит через IDE
+```
+
+</details>
+
+
+# Домашнее задание к занятию "2.1. Системы контроля версий"
 <details>
 test
-test  
+test
 
 ### Уточнение по .gitignore
 
@@ -28,13 +40,13 @@ crash.log
 
 ```
 # Exclude all .tfvars files, which are likely to contain sentitive data, such as
-# password, private keys, and other secrets. These should not be part of version 
-# control as they are data points which are potentially sensitive and subject 
+# password, private keys, and other secrets. These should not be part of version
+# control as they are data points which are potentially sensitive and subject
 # to change depending on the environment.
 #
 *.tfvars
 ```
-Исключит все файлы с расширением `.tfvars` 
+Исключит все файлы с расширением `.tfvars`
 
 
 ```
@@ -45,13 +57,13 @@ override.tf.json
 *_override.tf
 *_override.tf.json
 ```
-Исключит  файлы `override.tf` и `override.tf.json`, и прочие, которые заканчиваются на `_override.tf` и `_override.tf.json 
+Исключит  файлы `override.tf` и `override.tf.json`, и прочие, которые заканчиваются на `_override.tf` и `_override.tf.json
 
 ```
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
 ```
-Исключит два файла: `.terraformrc` и `terraform.rc` 
+Исключит два файла: `.terraformrc` и `terraform.rc`
 
 </details>
